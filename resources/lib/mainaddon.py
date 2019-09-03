@@ -23,7 +23,7 @@ def get_playable_podcast(soup):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "http://www.ucy.tv/uploads/images/TAMRiTunes.png",
+                'thumbnail': "http://ucy.tv/uploads/images/TAMRUCYAvatar.png",
         }
         subjects.append(item)
     return subjects
@@ -52,7 +52,7 @@ def get_playable_podcast1(soup):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "http://www.ucy.tv/uploads/images/TAMRiTunes.png",
+                'thumbnail': "http://ucy.tv/uploads/images/TAMRUCYAvatar.png",
         }
         subjects.append(item) 
     return subjects

@@ -23,10 +23,10 @@ def get_playable_podcast(soup):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': “http://www.ucy.tv/uploads/images/TAMRiTunes.png”
+                'thumbnail': "http://www.ucy.tv/uploads/images/TAMRiTunes.png",
         }
-        subjects.append(item) 
-     return subjects
+        subjects.append(item)
+    return subjects
 def compile_playable_podcast(playable_podcast):
     items = []
     for podcast in playable_podcast:
@@ -52,10 +52,10 @@ def get_playable_podcast1(soup):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': “http://www.ucy.tv/uploads/images/TAMRiTunes.png”,
+                'thumbnail': "http://www.ucy.tv/uploads/images/TAMRiTunes.png",
         }
         subjects.append(item) 
-     return subjects
+    return subjects
 def compile_playable_podcast1(playable_podcast1):
     items = []
     for podcast in playable_podcast1:

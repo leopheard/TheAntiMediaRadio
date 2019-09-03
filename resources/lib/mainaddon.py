@@ -42,8 +42,8 @@ def get_playable_podcast1(soup):
     subjects = []
     for content in soup.find_all('item', limit=10):
         try:        
-            link = content.find('link')
-            link = link.get()
+            link = content.find('enclosure')
+            link = link.get('url')
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()

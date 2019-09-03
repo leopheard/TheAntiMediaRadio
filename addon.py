@@ -9,17 +9,17 @@ def main_menu():
     items = [
         {
             'label': plugin.get_string(20000), 
-            'path': "http://cdn.voscast.com/resources/?key=fd6db7a60caace8bf9ffe1ac14d6d205&c=wmp",
-            'thumbnail': "http://www.ucy.tv/uploads/images/TAMRiTunes.png", 
+            'path': "http://s2.voscast.com:7762/;stream1567474156690/1",
+            'thumbnail': "http://ucy.tv/player/share/html/imgs/ucyplayer3_r3_c2.jpg", 
             'is_playable': True},
    {
             'label': plugin.get_string(30001), 
             'path': plugin.url_for('episodes1'),
-            'thumbnail': "http://www.ucy.tv/uploads/images/TAMRiTunes.png"},
+            'thumbnail': "http://ucy.tv/uploads/images/TAMRUCYAvatar.png"},
         {
             'label': plugin.get_string(30000), 
             'path': plugin.url_for('episodes'),
-            'thumbnail': "http://www.ucy.tv/uploads/images/TAMRiTunes.png"},
+            'thumbnail': "http://ucy.tv/uploads/images/TAMRUCYAvatar.png"},
    ]
     return items
 
